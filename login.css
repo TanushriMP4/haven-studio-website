@@ -1,0 +1,88 @@
+/* COLOR PALETTE
+Navy Blue: #0b1c2d
+Ivory White: #f9f9f6
+Muted Gold: #c9a24d
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #0b1c2d;
+  color: #f9f9f6;
+  height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+  padding: 20px 40px;
+  border-bottom: 1px solid #c9a24d;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #c9a24d;
+}
+
+/* LOGIN CONTAINER */
+.login-container {
+  background-color: #f9f9f6;
+  color: #0b1c2d;
+  width: 350px;
+  margin: 80px auto;
+  padding: 40px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+.login-container h2 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #0b1c2d;
+  color: #f9f9f6;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #c9a24d;
+  color: #0b1c2d;
+}
+
+/* MESSAGE */
+#message {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #c9a24d;
+}
